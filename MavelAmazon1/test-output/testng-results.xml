@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T21:56:03 GMT-07:00" name="RegressionSuite" finished-at="2022-09-26T21:59:38 GMT-07:00" duration-ms="215732">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T21:56:03 GMT-07:00" name="chromeTest" finished-at="2022-09-26T21:57:53 GMT-07:00" duration-ms="110717">
+      <class name="TestPack.VerifyServicePage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:10 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:56:15 GMT-07:00" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:15 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:56:32 GMT-07:00" duration-ms="16621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnRefund()[pri:-1, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:32 GMT-07:00" name="VerifyEUCanClickOnRefund" finished-at="2022-09-26T21:56:44 GMT-07:00" duration-ms="12372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnRefund -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:44 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:56:57 GMT-07:00" duration-ms="12509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnYourOrder()[pri:1, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:57 GMT-07:00" name="VerifyEUCanClickOnYourOrder" finished-at="2022-09-26T21:57:01 GMT-07:00" duration-ms="4260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnYourOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:57:01 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:57:18 GMT-07:00" duration-ms="16460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.VerifyServicePage -->
+      <class name="TestPack.VerifyTestCasesOnMobileAndAccePage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:56:10 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:56:14 GMT-07:00" duration-ms="4524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:56:14 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:57:08 GMT-07:00" duration-ms="53869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnCablesField()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:57:08 GMT-07:00" name="VerifyEUCanClickOnCablesField" finished-at="2022-09-26T21:57:14 GMT-07:00" duration-ms="5718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnCablesField -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:57:14 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:57:17 GMT-07:00" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.VerifyTestCasesOnMobileAndAccePage -->
+      <class name="TestPack.VerifyLanguageSelectionOnBooksPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:56:03 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:56:10 GMT-07:00" duration-ms="6970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:17 GMT-07:00" name="createPOMObjects" finished-at="2022-09-26T21:57:17 GMT-07:00" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:17 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:57:28 GMT-07:00" duration-ms="11240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonApp -->
+        <test-method signature="VerifyEUCanSelectMarathiBooks()[pri:1, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:28 GMT-07:00" name="VerifyEUCanSelectMarathiBooks" finished-at="2022-09-26T21:57:34 GMT-07:00" duration-ms="5668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanSelectMarathiBooks -->
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:34 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:57:38 GMT-07:00" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonApp -->
+        <test-method signature="VerifyEUCanSelectHindiBooks()[pri:2, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:38 GMT-07:00" name="VerifyEUCanSelectHindiBooks" finished-at="2022-09-26T21:57:42 GMT-07:00" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanSelectHindiBooks -->
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:42 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:57:48 GMT-07:00" duration-ms="6168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonApp -->
+        <test-method signature="VerifyEUCanSelectEnglishBooks()[pri:3, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:48 GMT-07:00" name="VerifyEUCanSelectEnglishBooks" finished-at="2022-09-26T21:57:50 GMT-07:00" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanSelectEnglishBooks -->
+        <test-method is-config="true" signature="CloseBrawser()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:50 GMT-07:00" name="CloseBrawser" finished-at="2022-09-26T21:57:53 GMT-07:00" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrawser -->
+      </class> <!-- TestPack.VerifyLanguageSelectionOnBooksPage -->
+    </test> <!-- chromeTest -->
+    <test started-at="2022-09-26T21:57:53 GMT-07:00" name="FirefoxTest" finished-at="2022-09-26T21:59:38 GMT-07:00" duration-ms="104904">
+      <class name="TestPack.VerifyServicePage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:00 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:58:04 GMT-07:00" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:04 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:58:49 GMT-07:00" duration-ms="44276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnRefund()[pri:-1, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:49 GMT-07:00" name="VerifyEUCanClickOnRefund" finished-at="2022-09-26T21:58:55 GMT-07:00" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnRefund -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:55 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:59:04 GMT-07:00" duration-ms="8642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnYourOrder()[pri:1, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:59:04 GMT-07:00" name="VerifyEUCanClickOnYourOrder" finished-at="2022-09-26T21:59:07 GMT-07:00" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnYourOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:59:07 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:59:09 GMT-07:00" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.VerifyServicePage -->
+      <class name="TestPack.VerifyTestCasesOnMobileAndAccePage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:58:00 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:58:05 GMT-07:00" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:58:05 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:59:02 GMT-07:00" duration-ms="57485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnCablesField()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:59:02 GMT-07:00" name="VerifyEUCanClickOnCablesField" finished-at="2022-09-26T21:59:08 GMT-07:00" duration-ms="5749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnCablesField -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:59:08 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:59:09 GMT-07:00" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.VerifyTestCasesOnMobileAndAccePage -->
+      <class name="TestPack.VerifyLanguageSelectionOnBooksPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:57:53 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:58:00 GMT-07:00" duration-ms="6801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:09 GMT-07:00" name="createPOMObjects" finished-at="2022-09-26T21:59:09 GMT-07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:09 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:59:18 GMT-07:00" duration-ms="9409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonApp -->
+        <test-method signature="VerifyEUCanSelectMarathiBooks()[pri:1, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:18 GMT-07:00" name="VerifyEUCanSelectMarathiBooks" finished-at="2022-09-26T21:59:21 GMT-07:00" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanSelectMarathiBooks -->
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:21 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:59:25 GMT-07:00" duration-ms="4191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonApp -->
+        <test-method signature="VerifyEUCanSelectHindiBooks()[pri:2, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:25 GMT-07:00" name="VerifyEUCanSelectHindiBooks" finished-at="2022-09-26T21:59:28 GMT-07:00" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanSelectHindiBooks -->
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:28 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:59:32 GMT-07:00" duration-ms="3769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAmazonApp -->
+        <test-method signature="VerifyEUCanSelectEnglishBooks()[pri:3, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:32 GMT-07:00" name="VerifyEUCanSelectEnglishBooks" finished-at="2022-09-26T21:59:35 GMT-07:00" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanSelectEnglishBooks -->
+        <test-method is-config="true" signature="CloseBrawser()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:35 GMT-07:00" name="CloseBrawser" finished-at="2022-09-26T21:59:38 GMT-07:00" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrawser -->
+      </class> <!-- TestPack.VerifyLanguageSelectionOnBooksPage -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

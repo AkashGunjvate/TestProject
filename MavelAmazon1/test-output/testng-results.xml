@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="7" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-26T21:56:03 GMT-07:00" name="RegressionSuite" finished-at="2022-09-26T21:59:38 GMT-07:00" duration-ms="215732">
+  <suite started-at="2022-09-29T11:26:26 GMT-07:00" name="RegressionSuite" finished-at="2022-09-29T11:29:44 GMT-07:00" duration-ms="197797">
     <groups>
     </groups>
-    <test started-at="2022-09-26T21:56:03 GMT-07:00" name="chromeTest" finished-at="2022-09-26T21:57:53 GMT-07:00" duration-ms="110717">
-      <class name="TestPack.VerifyServicePage">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:10 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:56:15 GMT-07:00" duration-ms="5642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:15 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:56:32 GMT-07:00" duration-ms="16621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openMobilesAndAccePage -->
-        <test-method signature="VerifyEUCanClickOnRefund()[pri:-1, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:32 GMT-07:00" name="VerifyEUCanClickOnRefund" finished-at="2022-09-26T21:56:44 GMT-07:00" duration-ms="12372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEUCanClickOnRefund -->
-        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:44 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:56:57 GMT-07:00" duration-ms="12509" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openMobilesAndAccePage -->
-        <test-method signature="VerifyEUCanClickOnYourOrder()[pri:1, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:56:57 GMT-07:00" name="VerifyEUCanClickOnYourOrder" finished-at="2022-09-26T21:57:01 GMT-07:00" duration-ms="4260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEUCanClickOnYourOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-26T21:57:01 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:57:18 GMT-07:00" duration-ms="16460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestPack.VerifyServicePage -->
+    <test started-at="2022-09-29T11:26:26 GMT-07:00" name="chromeTest" finished-at="2022-09-29T11:28:45 GMT-07:00" duration-ms="138969">
       <class name="TestPack.VerifyTestCasesOnMobileAndAccePage">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:56:10 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:56:14 GMT-07:00" duration-ms="4524" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-29T11:26:33 GMT-07:00" name="openBrowser" finished-at="2022-09-29T11:26:36 GMT-07:00" duration-ms="3256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:56:14 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:57:08 GMT-07:00" duration-ms="53869" status="PASS">
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-29T11:26:36 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-29T11:28:37 GMT-07:00" duration-ms="120447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMobilesAndAccePage -->
-        <test-method signature="VerifyEUCanClickOnCablesField()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:57:08 GMT-07:00" name="VerifyEUCanClickOnCablesField" finished-at="2022-09-26T21:57:14 GMT-07:00" duration-ms="5718" status="PASS">
+        <test-method signature="VerifyEUCanClickOnCablesField()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-29T11:28:37 GMT-07:00" name="VerifyEUCanClickOnCablesField" finished-at="2022-09-29T11:28:42 GMT-07:00" duration-ms="5652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanClickOnCablesField -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-26T21:57:14 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:57:17 GMT-07:00" duration-ms="3108" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@9353778]" started-at="2022-09-29T11:28:42 GMT-07:00" name="closeBrowser" finished-at="2022-09-29T11:28:45 GMT-07:00" duration-ms="2568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestPack.VerifyTestCasesOnMobileAndAccePage -->
+      <class name="TestPack.VerifyServicePage">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-29T11:26:33 GMT-07:00" name="openBrowser" finished-at="2022-09-29T11:26:36 GMT-07:00" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-29T11:26:36 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-29T11:26:58 GMT-07:00" duration-ms="22216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnRefund()[pri:-1, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-29T11:26:58 GMT-07:00" name="VerifyEUCanClickOnRefund" finished-at="2022-09-29T11:27:05 GMT-07:00" duration-ms="7487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnRefund -->
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-29T11:27:05 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-29T11:27:12 GMT-07:00" duration-ms="6814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMobilesAndAccePage -->
+        <test-method signature="VerifyEUCanClickOnYourOrder()[pri:1, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-29T11:27:12 GMT-07:00" name="VerifyEUCanClickOnYourOrder" finished-at="2022-09-29T11:27:15 GMT-07:00" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEUCanClickOnYourOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyServicePage@6a28ffa4]" started-at="2022-09-29T11:27:15 GMT-07:00" name="closeBrowser" finished-at="2022-09-29T11:27:17 GMT-07:00" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestPack.VerifyServicePage -->
       <class name="TestPack.VerifyLanguageSelectionOnBooksPage">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:56:03 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:56:10 GMT-07:00" duration-ms="6970" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:26:26 GMT-07:00" name="openBrowser" finished-at="2022-09-29T11:26:33 GMT-07:00" duration-ms="6977" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,87 +62,327 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:17 GMT-07:00" name="createPOMObjects" finished-at="2022-09-26T21:57:17 GMT-07:00" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:27:17 GMT-07:00" name="createPOMObjects" finished-at="2022-09-29T11:27:17 GMT-07:00" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObjects -->
-        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:17 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:57:28 GMT-07:00" duration-ms="11240" status="PASS">
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:27:17 GMT-07:00" name="openAmazonApp" finished-at="2022-09-29T11:27:44 GMT-07:00" duration-ms="26440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonApp -->
-        <test-method signature="VerifyEUCanSelectMarathiBooks()[pri:1, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:28 GMT-07:00" name="VerifyEUCanSelectMarathiBooks" finished-at="2022-09-26T21:57:34 GMT-07:00" duration-ms="5668" status="PASS">
+        <test-method signature="VerifyEUCanSelectMarathiBooks()[pri:1, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:27:44 GMT-07:00" name="VerifyEUCanSelectMarathiBooks" finished-at="2022-09-29T11:27:48 GMT-07:00" duration-ms="4465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanSelectMarathiBooks -->
-        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:34 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:57:38 GMT-07:00" duration-ms="4551" status="PASS">
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:27:48 GMT-07:00" name="openAmazonApp" finished-at="2022-09-29T11:27:56 GMT-07:00" duration-ms="8178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonApp -->
-        <test-method signature="VerifyEUCanSelectHindiBooks()[pri:2, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:38 GMT-07:00" name="VerifyEUCanSelectHindiBooks" finished-at="2022-09-26T21:57:42 GMT-07:00" duration-ms="3450" status="PASS">
+        <test-method signature="VerifyEUCanSelectHindiBooks()[pri:2, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:27:56 GMT-07:00" name="VerifyEUCanSelectHindiBooks" finished-at="2022-09-29T11:28:02 GMT-07:00" duration-ms="6079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanSelectHindiBooks -->
-        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:42 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:57:48 GMT-07:00" duration-ms="6168" status="PASS">
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:28:02 GMT-07:00" name="openAmazonApp" finished-at="2022-09-29T11:28:12 GMT-07:00" duration-ms="9182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonApp -->
-        <test-method signature="VerifyEUCanSelectEnglishBooks()[pri:3, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:48 GMT-07:00" name="VerifyEUCanSelectEnglishBooks" finished-at="2022-09-26T21:57:50 GMT-07:00" duration-ms="2433" status="PASS">
+        <test-method signature="VerifyEUCanSelectEnglishBooks()[pri:3, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:28:12 GMT-07:00" name="VerifyEUCanSelectEnglishBooks" finished-at="2022-09-29T11:28:18 GMT-07:00" duration-ms="6123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanSelectEnglishBooks -->
-        <test-method is-config="true" signature="CloseBrawser()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-26T21:57:50 GMT-07:00" name="CloseBrawser" finished-at="2022-09-26T21:57:53 GMT-07:00" duration-ms="2921" status="PASS">
+        <test-method is-config="true" signature="CloseBrawser()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@a9cd3b1]" started-at="2022-09-29T11:28:18 GMT-07:00" name="CloseBrawser" finished-at="2022-09-29T11:28:18 GMT-07:00" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrawser -->
       </class> <!-- TestPack.VerifyLanguageSelectionOnBooksPage -->
     </test> <!-- chromeTest -->
-    <test started-at="2022-09-26T21:57:53 GMT-07:00" name="FirefoxTest" finished-at="2022-09-26T21:59:38 GMT-07:00" duration-ms="104904">
+    <test started-at="2022-09-29T11:28:45 GMT-07:00" name="FirefoxTest" finished-at="2022-09-29T11:29:44 GMT-07:00" duration-ms="58683">
       <class name="TestPack.VerifyServicePage">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:00 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:58:04 GMT-07:00" duration-ms="4095" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-29T11:28:51 GMT-07:00" name="openBrowser" finished-at="2022-09-29T11:28:54 GMT-07:00" duration-ms="2954" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:04 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:58:49 GMT-07:00" duration-ms="44276" status="PASS">
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-29T11:28:54 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-29T11:29:13 GMT-07:00" duration-ms="18984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMobilesAndAccePage -->
-        <test-method signature="VerifyEUCanClickOnRefund()[pri:-1, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:49 GMT-07:00" name="VerifyEUCanClickOnRefund" finished-at="2022-09-26T21:58:55 GMT-07:00" duration-ms="6580" status="PASS">
+        <test-method signature="VerifyEUCanClickOnRefund()[pri:-1, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-29T11:29:13 GMT-07:00" name="VerifyEUCanClickOnRefund" finished-at="2022-09-29T11:29:20 GMT-07:00" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanClickOnRefund -->
-        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:58:55 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:59:04 GMT-07:00" duration-ms="8642" status="PASS">
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-29T11:29:20 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-29T11:29:39 GMT-07:00" duration-ms="19496" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 903b4be225631daf93c39908c5491ceb
+*** Element info: {Using=xpath, value=//a[text()='Customer Service']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 903b4be225631daf93c39908c5491ceb
+*** Element info: {Using=xpath, value=//a[text()='Customer Service']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.HomePage.clickOnCustomerService(HomePage.java:39)
+at TestPack.VerifyServicePage.openMobilesAndAccePage(VerifyServicePage.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMobilesAndAccePage -->
-        <test-method signature="VerifyEUCanClickOnYourOrder()[pri:1, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:59:04 GMT-07:00" name="VerifyEUCanClickOnYourOrder" finished-at="2022-09-26T21:59:07 GMT-07:00" duration-ms="3009" status="PASS">
+        <test-method signature="VerifyEUCanClickOnYourOrder()[pri:1, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-29T11:29:39 GMT-07:00" name="VerifyEUCanClickOnYourOrder" finished-at="2022-09-29T11:29:39 GMT-07:00" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 903b4be225631daf93c39908c5491ceb
+*** Element info: {Using=xpath, value=//a[text()='Customer Service']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 903b4be225631daf93c39908c5491ceb
+*** Element info: {Using=xpath, value=//a[text()='Customer Service']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.HomePage.clickOnCustomerService(HomePage.java:39)
+at TestPack.VerifyServicePage.openMobilesAndAccePage(VerifyServicePage.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanClickOnYourOrder -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-26T21:59:07 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:59:09 GMT-07:00" duration-ms="1903" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyServicePage@43195e57]" started-at="2022-09-29T11:29:39 GMT-07:00" name="closeBrowser" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1664476179675" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestPack.VerifyServicePage -->
       <class name="TestPack.VerifyTestCasesOnMobileAndAccePage">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:58:00 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:58:05 GMT-07:00" duration-ms="4346" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-29T11:28:51 GMT-07:00" name="openBrowser" finished-at="2022-09-29T11:28:54 GMT-07:00" duration-ms="2997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:58:05 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-26T21:59:02 GMT-07:00" duration-ms="57485" status="PASS">
+        <test-method is-config="true" signature="openMobilesAndAccePage()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-29T11:28:54 GMT-07:00" name="openMobilesAndAccePage" finished-at="2022-09-29T11:29:34 GMT-07:00" duration-ms="39525" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e63040d86421e6f6deea46e7e5b8ec32
+*** Element info: {Using=xpath, value=//span[text()='Mobile Accessories']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e63040d86421e6f6deea46e7e5b8ec32
+*** Element info: {Using=xpath, value=//span[text()='Mobile Accessories']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.MobilesPhones.clickOnMobilesAccesories(MobilesPhones.java:22)
+at TestPack.VerifyTestCasesOnMobileAndAccePage.openMobilesAndAccePage(VerifyTestCasesOnMobileAndAccePage.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMobilesAndAccePage -->
-        <test-method signature="VerifyEUCanClickOnCablesField()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:59:02 GMT-07:00" name="VerifyEUCanClickOnCablesField" finished-at="2022-09-26T21:59:08 GMT-07:00" duration-ms="5749" status="PASS">
+        <test-method signature="VerifyEUCanClickOnCablesField()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-29T11:29:34 GMT-07:00" name="VerifyEUCanClickOnCablesField" finished-at="2022-09-29T11:29:34 GMT-07:00" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e63040d86421e6f6deea46e7e5b8ec32
+*** Element info: {Using=xpath, value=//span[text()='Mobile Accessories']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\vishi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e63040d86421e6f6deea46e7e5b8ec32
+*** Element info: {Using=xpath, value=//span[text()='Mobile Accessories']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.MobilesPhones.clickOnMobilesAccesories(MobilesPhones.java:22)
+at TestPack.VerifyTestCasesOnMobileAndAccePage.openMobilesAndAccePage(VerifyTestCasesOnMobileAndAccePage.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanClickOnCablesField -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-26T21:59:08 GMT-07:00" name="closeBrowser" finished-at="2022-09-26T21:59:09 GMT-07:00" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.VerifyTestCasesOnMobileAndAccePage@1ab3a8c8]" started-at="2022-09-29T11:29:34 GMT-07:00" name="closeBrowser" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1664476174499" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestPack.VerifyTestCasesOnMobileAndAccePage -->
       <class name="TestPack.VerifyLanguageSelectionOnBooksPage">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:57:53 GMT-07:00" name="openBrowser" finished-at="2022-09-26T21:58:00 GMT-07:00" duration-ms="6801" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:28:45 GMT-07:00" name="openBrowser" finished-at="2022-09-29T11:28:51 GMT-07:00" duration-ms="6548" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,35 +393,259 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:09 GMT-07:00" name="createPOMObjects" finished-at="2022-09-26T21:59:09 GMT-07:00" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:34 GMT-07:00" name="createPOMObjects" finished-at="2022-09-29T11:29:34 GMT-07:00" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObjects -->
-        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:09 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:59:18 GMT-07:00" duration-ms="9409" status="PASS">
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:34 GMT-07:00" name="openAmazonApp" finished-at="2022-09-29T11:29:44 GMT-07:00" duration-ms="9513" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.HomePage.clickOnBooks(HomePage.java:43)
+at TestPack.VerifyLanguageSelectionOnBooksPage.openAmazonApp(VerifyLanguageSelectionOnBooksPage.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonApp -->
-        <test-method signature="VerifyEUCanSelectMarathiBooks()[pri:1, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:18 GMT-07:00" name="VerifyEUCanSelectMarathiBooks" finished-at="2022-09-26T21:59:21 GMT-07:00" duration-ms="2940" status="PASS">
+        <test-method signature="VerifyEUCanSelectMarathiBooks()[pri:1, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:44 GMT-07:00" name="VerifyEUCanSelectMarathiBooks" finished-at="2022-09-29T11:29:44 GMT-07:00" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.HomePage.clickOnBooks(HomePage.java:43)
+at TestPack.VerifyLanguageSelectionOnBooksPage.openAmazonApp(VerifyLanguageSelectionOnBooksPage.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanSelectMarathiBooks -->
-        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:21 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:59:25 GMT-07:00" duration-ms="4191" status="PASS">
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:44 GMT-07:00" name="openAmazonApp" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1664476184041" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonApp -->
-        <test-method signature="VerifyEUCanSelectHindiBooks()[pri:2, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:25 GMT-07:00" name="VerifyEUCanSelectHindiBooks" finished-at="2022-09-26T21:59:28 GMT-07:00" duration-ms="3179" status="PASS">
+        <test-method signature="VerifyEUCanSelectHindiBooks()[pri:2, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:44 GMT-07:00" name="VerifyEUCanSelectHindiBooks" finished-at="2022-09-29T11:29:44 GMT-07:00" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.HomePage.clickOnBooks(HomePage.java:43)
+at TestPack.VerifyLanguageSelectionOnBooksPage.openAmazonApp(VerifyLanguageSelectionOnBooksPage.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanSelectHindiBooks -->
-        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:28 GMT-07:00" name="openAmazonApp" finished-at="2022-09-26T21:59:32 GMT-07:00" duration-ms="3769" status="PASS">
+        <test-method is-config="true" signature="openAmazonApp()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:44 GMT-07:00" name="openAmazonApp" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1664476184051" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonApp -->
-        <test-method signature="VerifyEUCanSelectEnglishBooks()[pri:3, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:32 GMT-07:00" name="VerifyEUCanSelectEnglishBooks" finished-at="2022-09-26T21:59:35 GMT-07:00" duration-ms="2719" status="PASS">
+        <test-method signature="VerifyEUCanSelectEnglishBooks()[pri:3, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:44 GMT-07:00" name="VerifyEUCanSelectEnglishBooks" finished-at="2022-09-29T11:29:44 GMT-07:00" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QQ2F0N4', ip: '192.168.218.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14632, moz:profile: C:\Users\vishi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 86ec52cb-ce20-4b3b-ba9a-5e18a3fc84c3
+*** Element info: {Using=xpath, value=//a[text()='Books']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PagesAmazon.HomePage.clickOnBooks(HomePage.java:43)
+at TestPack.VerifyLanguageSelectionOnBooksPage.openAmazonApp(VerifyLanguageSelectionOnBooksPage.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEUCanSelectEnglishBooks -->
-        <test-method is-config="true" signature="CloseBrawser()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-26T21:59:35 GMT-07:00" name="CloseBrawser" finished-at="2022-09-26T21:59:38 GMT-07:00" duration-ms="3365" status="PASS">
+        <test-method is-config="true" signature="CloseBrawser()[pri:0, instance:TestPack.VerifyLanguageSelectionOnBooksPage@6973b51b]" started-at="2022-09-29T11:29:44 GMT-07:00" name="CloseBrawser" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1664476184061" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrawser -->

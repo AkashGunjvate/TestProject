@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="chromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestPack.VerifyLanguageSelectionOnBooksPage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="createPOMObjects"/>
+          <include name="openAmazonApp"/>
+          <include name="VerifyEUCanSelectEnglishBooks"/>
+          <include name="VerifyEUCanSelectMarathiBooks"/>
+          <include name="VerifyEUCanSelectHindiBooks"/>
+          <include name="CloseBrawser"/>
+        </methods>
+      </class> <!-- TestPack.VerifyLanguageSelectionOnBooksPage -->
+      <class name="TestPack.VerifyTestCasesOnMobileAndAccePage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openMobilesAndAccePage"/>
+          <include name="VerifyEUCanClickOnCablesField"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestPack.VerifyTestCasesOnMobileAndAccePage -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="2" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestPack.VerifyLanguageSelectionOnBooksPage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="createPOMObjects"/>
+          <include name="openAmazonApp"/>
+          <include name="VerifyEUCanSelectEnglishBooks"/>
+          <include name="VerifyEUCanSelectMarathiBooks"/>
+          <include name="VerifyEUCanSelectHindiBooks"/>
+          <include name="CloseBrawser"/>
+        </methods>
+      </class> <!-- TestPack.VerifyLanguageSelectionOnBooksPage -->
+      <class name="TestPack.VerifyTestCasesOnMobileAndAccePage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openMobilesAndAccePage"/>
+          <include name="VerifyEUCanClickOnCablesField"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestPack.VerifyTestCasesOnMobileAndAccePage -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
